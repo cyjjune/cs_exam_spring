@@ -11,4 +11,12 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+An interface is the portal where two things can interact with each other.
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+public class English implements Greeting{
+  public String FormalHello("How are you?");
+  public String CasualHello("Aloha");
+  }
+  
+    
+  
